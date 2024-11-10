@@ -1,0 +1,49 @@
+Mistral
+ Here is the mock data for an Indian candidate resume in the requested JSON format:
+
+```json
+{
+    "personal_info": {
+        "name": {
+            "first": "Rahul",
+            "middle": "Kumar",
+            "last": "Sharma"
+        },
+        "date_of_birth": "1990-02-05",
+        "father_name": "Hariom Sharma",
+        "marital_status": "Single",
+        "gender": "Male",
+        "nationality": "Indian"
+    },
+    "identifiers": {
+        "aadhar": "1234-5678-9012",
+        "pan": "AAAAA0123M",
+        "passport": {
+            "number": "P345678",
+            "issue_on": "2015-08-15",
+            "expires_on": "2025-08-15",
+            "issuing_authority": "MEA Chennai",
+            "issued_at": "2015-08-15",
+            "issuing_country": "India"
+        }
+    },
+    "contact_info": {
+        "phone": {
+            "primary": "+91 9876543210",
+            "alternative": "+91 1234567890"
+        },
+        "email": "rahul.sharma@gmail.com",
+        "address": {
+            "contact": {
+                "society": "Shanti Nagar Society",
+                "locality": "Khandiwala Road",
+                "landmark": "Near XYZ Mall",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India",
+                "pin": "400053"
+            }
+        }
+    }
+}
+```
