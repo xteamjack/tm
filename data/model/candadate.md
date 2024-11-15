@@ -1,5 +1,6 @@
 {
     personal_info: {
+        full_name:,
         name: {
             first,
             middle,
@@ -40,5 +41,14 @@
                 pin
             }
         }
-    }
+    },
+    experience: [
+        {
+            organization,
+            start_date: { month, year },
+            end_date: { month, year },
+            duration:{ years, months },
+            designation,
+        }
+    ]
 }
